@@ -77,4 +77,26 @@ Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Pr
     },
 
 
+## Importando Arquivos TS
+
+  1. Adiconar a biblioteca a seguir: yarn add -D eslint-import-resolver-typescript;
+  2. Incluir no arquivo .selintrc.json a seguinte configuração:
+    "settings": {
+      "import/resolver": {
+        "typescript": {}
+      }
+    }
+  3.No objeto rules do .selintrc.json incluir a config abaixo para não precisar incluir a estenxao ts nos import;
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never"
+      }
+    ]
+
+
+
+
+
 
