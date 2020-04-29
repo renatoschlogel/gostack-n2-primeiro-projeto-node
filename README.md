@@ -95,6 +95,31 @@ Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Pr
       }
     ]
 
+## Prettier
+
+  Ferramenta para deixar o código mais Bonito;
+
+  1. Adicionar as sequintes dependencias:
+     yarn add -D prettier eslint-config-prettier eslint-plugin-prettier;
+  2. Adicionar as regras a seguir no extends do arquivo .eslintrc.json:
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  3. Adicionar o plugin "prettier" no .eslintrc.json;
+  4. Adicionar o o rule "prettier/prettier": "error", no .eslintrc.json;
+  5. Criar na raiz do projeto o arquivo  prettier.config.js com o seguinte conteudo:
+    module.exports = {
+  singleQuote: true, // utilizar aspas simples
+  trailingComma: 'all', // incluir vigula o ultimo  value dos objetos
+  arrowParens: 'avoid', // não colocar () em arrow Functions com apenas um parametro
+};
+  6. Criar .eslintignore na raiz do projeto com o seguinte conteudo:
+    /*.js
+    node_modules
+    dist
+
+
+
 
 
 
