@@ -118,6 +118,10 @@ Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Pr
     node_modules
     dist
 
+## Debugando NodeJS (VSCode)
+
+  1. Na opção de Debug e mandar criar o .vscode/launch.json (ver configuração no arquivo);
+  2. No script dev:server incluir a flag --inspect
 
 
 
