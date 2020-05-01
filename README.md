@@ -4,17 +4,20 @@
 ## Primeiro projeto com Node.js e TypeScript
 
 ###### Este projeto, é um passo a passo para a criação de um projeto em NodeJs com TypeScript, utiliando ferramentas  ts-node-dev, ESLint, Prettier e EditorConfig, o de forma a padronizar o o desenvolvimento entre todos os desenvolvedores. Também possui possui a explicação da utilização do Debug no VSCode.
- ;
+ 
+ 
 ## Tecnologias utilizadas
   - NodeJs;
   - TypeScript;
   - Yarn;
+  - Express;
   - ESLint;
   - Prettier;
   - ts-node-dev;
   - EditorConfig;
 
-## Passado a passo apra a construção e configuração do projeto
+
+## Passado a passo utilizado para a construção e configuração deste projeto
 
 ### Configurando Estrutura
 
@@ -144,7 +147,8 @@
   2. No script dev:server incluir a flag --inspect
 
 
-
+<hr>
+<p align="center"> Renato Welinton Schlogel  ;) </p>
 
 
 
