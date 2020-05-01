@@ -1,7 +1,4 @@
-# gostack-n2-primeiro-projeto-node
-
-
-## Primeiro projeto com Node.js e TypeScript
+# gostack-n2-primeiro-projeto-node - Primeiro projeto com Node.js e TypeScript
 
 ###### Este projeto, é um passo a passo para a criação de um projeto em NodeJs com TypeScript, utiliando ferramentas  ts-node-dev, ESLint, Prettier e EditorConfig, o de forma a padronizar o o desenvolvimento entre todos os desenvolvedores. Também possui possui a explicação da utilização do Debug no VSCode.
  
