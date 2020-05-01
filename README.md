@@ -26,9 +26,8 @@
    
 ###### Buildar o projeto: yarn build
    Ao fazer o build da apricação, sera criado a pasta dist, na raiz do projeto, com a mesma estrutura que a srv, com os fontes buildados;
-    
-
-
+  
+  
 ## Passado a passo utilizado para a construção e configuração deste projeto
 
 ### Configurando Estrutura
