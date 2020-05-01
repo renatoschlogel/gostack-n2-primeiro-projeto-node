@@ -1,13 +1,22 @@
 # gostack-n2-primeiro-projeto-node
 
+
 ## Primeiro projeto com Node.js e TypeScript
 
-Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Prettier e EditorConfig.
+###### Este projeto, é um passo a passo para a criação de um projeto em NodeJs com TypeScript, utiliando ferramentas  ts-node-dev, ESLint, Prettier e EditorConfig, o de forma a padronizar o o desenvolvimento entre todos os desenvolvedores. Também possui possui a explicação da utilização do Debug no VSCode.
+ ;
+## Tecnologias utilizadas
+  - NodeJs;
+  - TypeScript;
+  - Yarn;
+  - ESLint;
+  - Prettier;
+  - ts-node-dev;
+  - EditorConfig;
 
+## Passado a passo apra a construção e configuração do projeto
 
-# Passado a passo apra a construção e configuração do projeto
-
-## Configurando Estrutura
+### Configurando Estrutura
 
   Criando e configurando um projeto node com typescript
 
@@ -27,7 +36,7 @@ Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Pr
   12. utilizar o comando a seguir par starta o server de dev: yarn dev:server;
 
 
-## EditorConfig
+### EditorConfig
 
   Ferramenta para padronizar configurações entre diferentes editores de codigo;
 
@@ -36,9 +45,9 @@ Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Pr
     * sera gerado o arquivo .editorConfig;
 
 
-## ESLint
+### ESLint
 
-  Ferramenta para padronização de coigo do projeto;
+  Ferramenta para padronização de codigo do projeto;
 
   1. Instalar o ESLint : yarn add eslint -D;
   2. Iniciar ESlint no projeto : yarn eslint --init;
@@ -77,7 +86,7 @@ Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Pr
     },
 ```
 
-## Importando Arquivos TS
+### Importando Arquivos TS
 
   1. Adiconar a biblioteca a seguir: yarn add -D eslint-import-resolver-typescript;
   2. Incluir no arquivo .selintrc.json a seguinte configuração:
@@ -100,7 +109,7 @@ Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Pr
     ]
  ```
 
-## Prettier
+### Prettier
 
   Ferramenta para deixar o código mais Bonito;
 
@@ -129,7 +138,7 @@ Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Pr
     dist
  ```
 
-## Debugando NodeJS (VSCode)
+### Debugando NodeJS (VSCode)
 
   1. Na opção de Debug e mandar criar o .vscode/launch.json (ver configuração no arquivo);
   2. No script dev:server incluir a flag --inspect
