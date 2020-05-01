@@ -15,6 +15,14 @@
   - Prettier;
   - ts-node-dev;
   - EditorConfig;
+  
+  
+## Utilizando este Projeto:
+
+   1. Fazer o clone no mesmo;
+   2. Acessar a parta do projetos e instalar as dependencias: yarn install;
+   3. Executar a aplicação como dev: yarn dev:server;
+   4. Acessar a aplicação no navegado : http://localhost:3333
 
 
 ## Passado a passo utilizado para a construção e configuração deste projeto
@@ -147,8 +155,9 @@
   2. No script dev:server incluir a flag --inspect
 
 
+
 <hr>
-<p align="center"> com :green_heart: por Renato Welinton Schlogel  :wink: </p>
+<p align="center"> com :green_heart: Renato Welinton Schlogel </p>
 
 
 
