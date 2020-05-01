@@ -5,7 +5,7 @@
 Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Prettier e EditorConfig.
 
 
-# Passado a passo
+# Passado a passo apra a construção e configuração do projeto
 
 ## Configurando Estrutura
 
@@ -54,7 +54,7 @@ Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Pr
     9. Would you like to install them now with npm? No
     10. yarn add -D  @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint-plugin-import@^2.20.1 @typescript-eslint/parser@latest
   3. para automatizar os ajuste, no settings.json do seu editor, incluir as seguintes configurações:
-
+```
    "[javascript]": {
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true,
@@ -75,25 +75,30 @@ Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Pr
             "source.fixAll.eslint": true,
         }
     },
-
+```
 
 ## Importando Arquivos TS
 
   1. Adiconar a biblioteca a seguir: yarn add -D eslint-import-resolver-typescript;
   2. Incluir no arquivo .selintrc.json a seguinte configuração:
+  ```
     "settings": {
       "import/resolver": {
         "typescript": {}
       }
     }
+  ```
+
   3.No objeto rules do .selintrc.json incluir a config abaixo para não precisar incluir a estenxao ts nos import;
-    "import/extensions": [
+```  
+    "import/extensins": [
       "error",
       "ignorePackages",
       {
         "ts": "never"
       }
     ]
+ ```
 
 ## Prettier
 
@@ -102,21 +107,27 @@ Projeto Node.js e TypeScript, incluindo ferramentas como ts-node-dev, ESLint, Pr
   1. Adicionar as sequintes dependencias:
      yarn add -D prettier eslint-config-prettier eslint-plugin-prettier;
   2. Adicionar as regras a seguir no extends do arquivo .eslintrc.json:
+```
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
+```
   3. Adicionar o plugin "prettier" no .eslintrc.json;
   4. Adicionar o o rule "prettier/prettier": "error", no .eslintrc.json;
   5. Criar na raiz do projeto o arquivo  prettier.config.js com o seguinte conteudo:
+```
     module.exports = {
-  singleQuote: true, // utilizar aspas simples
-  trailingComma: 'all', // incluir vigula o ultimo  value dos objetos
-  arrowParens: 'avoid', // não colocar () em arrow Functions com apenas um parametro
-};
-  6. Criar .eslintignore na raiz do projeto com o seguinte conteudo:
+      singleQuote: true, // utilizar aspas simples
+      trailingComma: 'all', // incluir vigula o ultimo  value dos objetos
+      arrowParens: 'avoid', // não colocar () em arrow Functions com apenas um parametro
+    };
+ ```
+  6. Criar .eslintignore na raiz do projeto com o seguinte conteudo:```
+```
     /*.js
     node_modules
     dist
+ ```
 
 ## Debugando NodeJS (VSCode)
 
