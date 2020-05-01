@@ -23,6 +23,10 @@
    2. Acessar a parta do projetos e instalar as dependencias: yarn install;
    3. Executar a aplicação como dev: yarn dev:server;
    4. Acessar a aplicação no navegado : http://localhost:3333
+   
+###### Buildar o projeto: yarn build
+   Ao fazer o build da apricação, sera criado a pasta dist, na raiz do projeto, com a mesma estrutura que a srv, com os fontes buildados;
+    
 
 
 ## Passado a passo utilizado para a construção e configuração deste projeto
