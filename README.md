@@ -148,7 +148,7 @@
 
 
 <hr>
-<p align="center"> Renato Welinton Schlogel  ;) </p>
+<p align="center"> com :green_heart: por Renato Welinton Schlogel  :wink: </p>
 
 
 
