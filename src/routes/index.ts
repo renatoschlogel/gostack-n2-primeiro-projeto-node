@@ -3,7 +3,9 @@ import { Router } from 'express';
 const routes = Router();
 
 routes.get('/', (request, response) => {
-  return response.json({mensagem: "Parabéns :D, aplicação respondendo com sucesso!"});
+  return response.json({
+    mensagem: 'Parabéns :D, aplicação respondendo com sucesso!',
+  });
 });
 
 routes.post('/users', (request, response) => {
